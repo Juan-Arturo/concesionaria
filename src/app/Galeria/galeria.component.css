@@ -1,0 +1,217 @@
+*{padding:0; margin:0; border:none; font-family:Century Gothic;}
+
+nav{
+	display:block;
+	width:100%; height:100vh;
+	background:#03045E;
+	overflow:none;
+}
+
+nav ul{
+	display:inline-block;
+	width:25%; height:100%;
+	float:left;
+	background:#03045E;
+	background-size:cover;
+	background-position:center;
+	transition:all .4s ease-out;
+}
+
+.info{
+	position:relative;
+	top:30%;
+	width:80%;
+	height:50%;
+	display:block;
+	margin:0 auto;
+}
+
+.info span{
+	display:block;
+	width:90%; min-height:50px; line-height:50px;
+	text-align:center; margin:0 auto;
+	padding-top:25%;
+	font-weight:bold; color:#0077B6; font-size:35px;
+}
+
+.info strong{
+	display:block;
+	width:90%; min-height:15px; line-height:15px;
+	text-align:center; margin:0 auto; font-weight:400;
+	font-style:italic; color:#0077B6; font-size:15px;
+}
+
+nav ul:nth-child(1){
+	background-image: url("https://www.ford.mx/content/ford/mx/es_mx/shelby-gt500-content/2022/billboard-carousels/overview-header/jcr:content/par/billboard_210146117/imageComponent/image.imgs.full.high.jpg");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+nav ul:nth-child(2){
+	background-image: url("https://www.dodge.com/content/dam/cross-regional/nafta/dodge/es_mx/Modelos/2022/charger-2022/01-INICIO/03-historia/dodge-historia-charger-2020.jpg");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+nav ul:nth-child(3){
+	background-image: url("https://www.dodge.com/content/dam/cross-regional/nafta/dodge/es_mx/Modelos/2023/challenger-2023/02-inicio/06-colores/widebody-redeye/2023-dodge-str-widebody-redeye-granitecrystal-mx-dk-1280x601.jpg.img.1440.jpg");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+nav ul:nth-child(4){
+	background-image: url("https://www.chevrolet.com.mx/content/dam/chevrolet/na/mx/es/index/performance/2023-camaro-zl1/colorizer/jellys/rapid-blue.jpg?imwidth=960");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+nav ul:nth-child(5){
+background-image:url("https://www.alfaromeo.mx/content/uploads/2023/02/alfa-romeo-noticias-febrero-2023-giulia-qv-es-premiado-por-su-alto-desempenio-dk.jpg");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+nav ul:nth-child(6){
+	background-image: url("https://media.cdn-jaguarlandrover.com/api/v2/images/26215/w/680");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+nav ul:nth-child(7){
+	background-image: url("https://www.audicenterserdan.com.mx/content/dam/iph/international/mx/modelos/r8-coupe-v10/teaser/c4_editorial_1130x636_r8-coupe_00_2022.jpg/jcr:content/renditions/cq5dam.thumbnail.1536.864.iph.png?imwidth=565&imdensity=1");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+nav ul:nth-child(8){
+	background-image: url("https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9Z7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO8mv60KwGhQ5XdYgfNKjv0DyQcXT898maikIfuDrxw1Y8uz5lsk67ywBCWh24poaQqbUOq42hjdtpF3OOLRZmhXmalxq6QPfIOaTshnAaDwZu5");
+	background-color:rgba(10,10,10,.9);
+	background-blend-mode:overlay;
+}
+
+
+nav ul:hover{
+	background-color:rgba(10,10,10,.4);
+	background-size:cover;
+	transition:all .8s ease-out;
+}
+
+a, a:link{
+	text-decoration:none;
+	position:inherit !important;
+	padding:inherit !important;
+	margin:inherit !important;
+	border:inherit !important;
+	top:inherit !important;
+	color:inherit !important;
+	width:inherit !important;
+	height:inherit !important;
+	line-height:inherit !important;
+}
+
+nav ul p button{
+	margin:0 auto;
+	width:auto;
+	height:auto;
+	line-height:auto;
+	background:rgba(0,0,0,.5);
+	color:#00B4D8;
+	font-weight:bold;
+	font-size:25px;
+	font-weight:bold;
+	display:block;
+	position:relative;
+	text-align:center;
+	padding:.3em .6em .3em .6em;
+	top:10%;
+	transform: rotate(14deg);
+}
+
+nav ul:hover button{
+	color:#eeeeee;
+	background:#7b00b5;
+	transform: rotate(0deg);
+	transition:all .8s ease-out;
+}
+
+nav ul p button:hover{
+	background:rgba(0,160,160,.9);
+	transition:all .4s ease-out;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+nav ul{
+	display:block;
+	width:100%; height:100%;
+	background-color:rgba(10,10,10,.2);
+}
+nav ul p button:hover{
+	background:rgba(0,160,160,1);
+	transition:all .1s;
+}
+	
+nav ul p button{
+	background:#009999;
+	color:#ffffff;
+	transform: rotate(0deg);
+}
+	
+nav ul:hover button{
+	background:#009999;
+	transform: rotate(0deg);
+}
+	
+nav ul:nth-child(1){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(2){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(3){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(4){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(5){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(6){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(7){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(8){background-color:rgba(10,10,10,.4);}
+	
+.info strong{
+ color:#9ee928;
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 1100px){
+nav ul{
+	display:inline-block;
+	width:50%; height:50%;
+	background-color:rgba(10,10,10,.2);
+}
+nav ul p button:hover{
+	background:rgba(0,160,160,1);
+	transition:all .1s;
+}
+	
+nav ul p button{
+	background:#009999;
+	color:#ffffff;
+	transform: rotate(0deg);
+}
+	
+nav ul:hover button{
+	background:#009999;
+	transform: rotate(0deg);
+}
+	
+nav ul:nth-child(1){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(2){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(3){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(4){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(5){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(6){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(7){background-color:rgba(10,10,10,.4);}
+nav ul:nth-child(8){background-color:rgba(10,10,10,.4);}
+
+.info{
+	top:0%;
+	height:70%;
+}
+ 
+.info strong{
+ color:#9ee928;
+}
+}
