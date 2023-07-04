@@ -77,7 +77,7 @@
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background: #0077B6;
+    background: #03045E;
     color: #90E0EF;
     font-size: 15px;;
   }
@@ -107,6 +107,8 @@
     justify-content: flex-end;
     padding-bottom: 50px;
     margin-bottom: 20px;
+    color: #0067b8;
+    size: 8;
   }
   
   .showcase h2, .showcase p {
@@ -150,8 +152,9 @@
   .xbox {
     width: 100%;
     height: 350px;
-    background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOQXNK90vBFTzwp4ya1BRU0N-7Y9cD2aAbsWwjAgUxGjT9PoggU7TbCxNm8_k-zbRTeESuhBZSFNQ-o7QnWA_qAsji0RxIb0dVErObLKotTk95NytRsLlOz2jFbB1B3EXkh-00w5uoSHu6nE1GBgZ4VE61_ct78SlHHE5xmqDunsHJTAssW_dti9bH/s1280/Autos%20deportivos%202022%20Ecuador%20Fayals%20911.png') no-repeat center center/cover;
     margin-bottom: 20px;
+    color:#ffb703;
   }
   
   .xbox .content {
@@ -168,6 +171,7 @@
     width: 100%;
     height: 350px;
     background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover;
+    color: #ffb703;
   }
   
   .carbon .content {
