@@ -1,0 +1,54 @@
+<div class="container">
+    <h1 id="title">Te interesa algun modelo</h1>
+    <p id="description">Dejanos tus datos para que podamos contactarte cuando lo tengamos</p>
+    <form id="survery-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Enter you name" required class="form-control">
+      </div>          
+      <div class="form-group">                     <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter you email" class="form-control"required class="form-control">
+     </div>  
+     <div class="form-group"> 
+      <label id="number-label" for="number">Numero de Telefono</label>
+      <input type="number" id="number" placeholder="Enter you number" min="10" max="99"required class="form-control">
+      </div>
+      
+      <div class="form-group">
+        <p>Cual es el Tipo de coche que buscas</p>
+        <select id="dropdown" name="role" required class="form-control">
+          <option disabled selected value>SSelecciona tu categoria</option>
+          <option value="student">Sedan</option>
+          <option value="job">Deportivo</option>
+          <option value="learner">Suv</option>
+          <option value="preferNo">Pick-Up</option>
+          <option value="other">Coupe</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>Con que tanta urgencia quieres tu coche</p>
+         <label>
+          <input type="radio" name="user-recommend" value="definitely" checked class="input-radio">
+          Mucha
+        </label>
+        <label>
+          <input type="radio" name="user-recommend" value="maybe" class="input-radio">
+          Medianamente
+        </label>
+        <label>
+          <input type="radio" name="user-recommend" value="not-sure" class="input-radio">
+          Poca
+        </label> 
+      </div>
+       <div class="form-group">
+        <p>¿Algun comentario que nos quieras decir?</p>
+        <textarea id="comments" name="comments" placeholder="Dinoslo aqui con toda confianza..." class="input-textarea"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit">
+          Registrar
+        </button>
+      </div>
+    </form>
+  </div>

@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    background-color: rgba(58, 58, 158, 0.8);
+    background-position: center;
+    color: #03045E; 
+    background-image: linear-gradient(115deg, 
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  }
+  
+  h1 {
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 1.125rem;
+  }
+  
+  
+  h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5 rem;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, buttom, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    padding: 10%;
+  }
+  
+  #title {
+    text-align: center;
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+  }
+  
+  #description {
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px #80bdff;
+  }
+  
+  
+  form {
+    background: #80bdff;
+    padding: 2.5rem; 
+    border-radius: 0.25rem;
+  }
+  
+  .form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #00B4D8;
+    background-color: #03045E;
+    background-clip: padding-box;
+    border: 1px solid #0077B6;
+    border-radius: 0.25rem;
+    transition: border color 0.15s ease-in-out, box shadow 0.15s ease-in-out;;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.55)
+  }
+  
+  .input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-heigth: 1.25rem;
+    min-width: 1.25rem;
+  }
+  
+  .clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #0077B6;
+  }
+  
+  .input-textarea {
+    min-heigth: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  
+  #submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #03045E;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #00B4D8;
+  }
+  

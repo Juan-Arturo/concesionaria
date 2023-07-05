@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { presupuestoComponent } from './Presupuesto/presupuesto.component';
 import { galeriaComponent } from './Galeria/galeria.component';
 import { inicioComponent } from './Inicio/inicio.component';
+import { formularioComponent } from './Formulario/formulario.component';
+import { datosComponent } from './Datos/datos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     presupuestoComponent,
     galeriaComponent,
-    inicioComponent
+    inicioComponent,
+    formularioComponent,
+    datosComponent
 
   ],
   imports: [
