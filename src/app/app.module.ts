@@ -8,6 +8,7 @@ import { galeriaComponent } from './Galeria/galeria.component';
 import { inicioComponent } from './Inicio/inicio.component';
 import { formularioComponent } from './Formulario/formulario.component';
 import { datosComponent } from './Datos/datos.component';
+import { AppLoginComponent } from './app-login/app-login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { datosComponent } from './Datos/datos.component';
     galeriaComponent,
     inicioComponent,
     formularioComponent,
-    datosComponent
+    datosComponent,
+    AppLoginComponent
 
   ],
   imports: [
